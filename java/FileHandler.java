@@ -25,10 +25,11 @@ public class FileHandler {
             
         }
         finally{
+             
             try{
                 if (reader != null)
                 {
-                    reader.close();
+                    reader.close();                   
                     System.out.println("file closed successfully ! "); 
                 }
             }
